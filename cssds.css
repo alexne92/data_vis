@@ -1,0 +1,177 @@
+body {
+	background: red;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+}
+#clear{
+	clear: both;
+}
+
+#header {
+	background-color: blue;
+	color: white;
+}
+#story {
+	background-color: white;
+	padding: 5%;
+	font-family: Helvetica, Sans-Serif;
+}
+#intro-text{
+	text-align:center;
+	width: 20%;
+	padding-top: 5%;
+	margin: 0px 2.5%;
+	display: inline-block;
+	float: left;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#intro-image{
+	display: inline-block;
+	width: 75%;
+	float: left;
+}
+
+
+
+#money-text-one {
+	display: inline-block;
+	text-align:center;
+	width: 40%;
+	float: left;
+	margin: 0px 5%;
+	padding-left:0px;
+	padding-right:0px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#money-image-one {
+	display: inline-block;
+	width: 50%;
+	float: left;
+
+}	
+
+
+#money-text-two {
+	display: inline-block;
+	
+	text-align: justify;
+    text-justify: inter-word;
+}
+#money-image-two {
+
+	display: inline-block;
+	width: 100%;
+}
+
+#money-text-three {
+	display: inline-block;
+	text-align:center;
+	width: 20%;
+	padding: 10%;
+	float: left;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#money-image-three {
+	display: inline-block;
+	width: 60%;
+	float: left;
+}
+
+#injuries-text {
+	display: inline-block;
+	text-align:center;
+	width: 20%;
+	padding: 5%;
+	float: left;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#injuries-image {
+	display: inline-block;
+	width: 70%;
+	float: left;
+}
+
+#stats-text {
+	display: inline-block;
+	padding-top: 10px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#stats-image {
+	display: inline-block;
+	width: 55%;
+}
+#conclusion {
+	background-color: white;
+	clear:both;
+	text-align: justify;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+#sources {
+	background-color: grey;
+	color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+   #intro-text, #intro-text{
+	width: 95%;
+	padding-top: 50px;
+	margin: 0px 2.5%;
+		}
+	#intro-image{
+	width: 100%;
+		}
+	#money-text-one {
+	text-align:center;
+	width: 90%;
+		}
+	#money-image-one {
+	width: 100%;
+		}	
+	#money-text-two {
+	width: 90%;
+	}
+	#money-image-two {
+		width: 100%;
+	}	
+
+	#money-text-three {
+	width: 80%;
+	padding: 10%;
+	}
+	#money-image-three {
+	width: 100%;
+	}
+
+	#injuries-text {
+	width: 90%;
+	padding: 5%;
+	}
+	#injuries-image {
+	width: 100%;
+	}
+	#stats-text {
+	padding-top: 30px;
+	width: 90%;
+	padding-left:5%;
+	padding-right: 5%;
+	}
+	#stats-image {
+	width: 100%;
+	}
+	#conclusion {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	}
+
+}
